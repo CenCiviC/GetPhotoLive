@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D70CFE9F2A08C673007FF22C /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70CFE9E2A08C672007FF22C /* PhotosUI.framework */; };
+		D70CFEA22A08C681007FF22C /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70CFEA02A08C67A007FF22C /* Photos.framework */; };
 		D723C3452A038638004B1591 /* GetPhotoLiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D723C3442A038638004B1591 /* GetPhotoLiveApp.swift */; };
 		D723C3472A038638004B1591 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D723C3462A038638004B1591 /* ContentView.swift */; };
 		D723C3492A038639004B1591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D723C3482A038639004B1591 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D70CFE9E2A08C672007FF22C /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		D70CFEA02A08C67A007FF22C /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		D723C3412A038638004B1591 /* GetPhotoLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetPhotoLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D723C3442A038638004B1591 /* GetPhotoLiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhotoLiveApp.swift; sourceTree = "<group>"; };
 		D723C3462A038638004B1591 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70CFE9F2A08C673007FF22C /* PhotosUI.framework in Frameworks */,
+				D70CFEA22A08C681007FF22C /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D70CFE9D2A08C672007FF22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D70CFEA02A08C67A007FF22C /* Photos.framework */,
+				D70CFE9E2A08C672007FF22C /* PhotosUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D723C3382A038638004B1591 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +93,7 @@
 				D723C3542A03863A004B1591 /* GetPhotoLiveTests */,
 				D723C35E2A03863A004B1591 /* GetPhotoLiveUITests */,
 				D723C3422A038638004B1591 /* Products */,
+				D70CFE9D2A08C672007FF22C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

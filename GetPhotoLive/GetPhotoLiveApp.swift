@@ -11,7 +11,7 @@ import SwiftUI
 struct GetPhotoLiveApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecentPicturesGrid()
         }
     }
 }
